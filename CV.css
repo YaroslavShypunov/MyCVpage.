@@ -1,0 +1,639 @@
+body{
+    background-color: rgb(18,18,18);
+}
+
+#ground{
+    width:90%;
+    height:100%;
+    left: 9%;
+    position: absolute;
+    top:0px;
+
+    
+}
+/* -------------------MENU-----------------------*/
+header{
+    display: flex;
+    flex-direction: column;
+
+}
+.menu1{
+    margin-left: 20px;
+   margin-top: 80px;
+    width:105px;
+    height: 65px;
+
+    
+}
+
+
+#firstMenu{
+    width:90px;
+    height: 90px;
+    display: block;
+    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_couch.svg) no-repeat;
+    
+}
+
+#firstMenu:hover{
+    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_couch.svg) no-repeat;
+}
+
+#secondMenu{
+    
+    width:90px;
+    height: 90px;
+    display:block;
+    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_bubbles.svg) no-repeat;
+}
+#secondMenu:hover{
+    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_bubbles.svg) no-repeat;
+}
+#thirdMenu{
+    width:90px;
+    height: 90px;
+    display:block;
+    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_mac.svg) no-repeat;
+}
+#thirdMenu:hover{
+    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_mac.svg) no-repeat;
+}
+
+#forthMenu{
+    width:90px;
+    height: 90px;
+    display:block;
+    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_phone.svg) no-repeat;
+}
+#forthMenu:hover{
+    display:block;
+    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_phone.svg) no-repeat;
+}
+#fifthMenu{
+    width:90px;
+    height: 90px;
+    display:block;
+    background: url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_flipchart.svg) no-repeat;
+}
+#fifthMenu:hover{
+    display:block;
+    background: url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_flipchart.svg) no-repeat;
+}
+/*--------------------------------------------------*/
+#groundDIV{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:absolute;
+    top: 30%;
+    left: 25%;
+    color:white;
+    width:54%;
+    height: 200px;
+}
+ #MyName{
+    font-family: 'Mukta', sans-serif;
+    font-size:50px;
+    font-weight: bold;
+     border-bottom: 2px solid white;
+}
+#WebDeveloper{
+    font-family: 'Kaushan Script', cursive;
+    font-style:italic;
+    font-weight: bold;
+    font-size:25px;
+    margin-top:-50px;
+}
+.buttonHandD{
+    flex-shrink: 0;
+    background-image:url(ButtonGround.png);
+    margin-top: 40px;
+    display: block;
+    padding: 10px;
+    padding-bottom: 25px;
+    border: 1px solid white;
+    text-decoration: none;
+    
+    color:white;
+    
+    float:left;
+}
+#latynCyt{
+    margin-top:-20px;
+    font-size:16px;
+    font-family: 'Mukta', sans-serif;
+}
+.buttonHandD:hover{
+    background-color:black;
+}
+.buttonD{
+    
+    margin-left: 10px;
+    
+}
+
+#groundDIV div{
+display: flex;
+justify-content: flex-end;  
+}
+
+/*-------------------------------------social networks-------------------------------*/
+
+.divNetworks{
+    position:absolute;
+    left:93%;
+    top:42%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Menu2Icons{
+padding:5px;
+background:black;
+border-radius: 150px;
+  
+}
+#menu2Icons1{
+    
+    width: 50px;
+    height: 50px;
+}
+#menu2Icons2{
+    margin-top: -5px;
+    padding:15px;
+    width:32px;
+    height:32px;
+}
+#menu2Icons3{
+    margin-top: -25px;
+    padding:10px;
+    width:40px;
+    height:40px;
+}
+
+.Menu2Icons:hover{
+     background: rgba(0,0,0,0.7);
+}
+
+/*-----------------------------------------kalendarz-------------------------------*/
+
+#kalendar{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    position: absolute;
+    top: 5%;
+    left: 91%;
+     font-family: 'Mukta', sans-serif;
+    border:2px solid white;
+    color:white;
+    
+    
+    
+}
+#monthDate{
+    font-size:40px;
+    font-weight: bold;
+    margin:-10px 10px 0px 10px;
+    
+}
+#dayDate{
+    font-weight: bold;
+    font-size: 55px;
+    margin: -30px 0px 0px 25%;
+}
+#yearDate{
+    font-size:40px;
+    margin:-30px 10px 0px 10px;
+}
+
+
+
+/*------------------------------_TIMER_----------------------------------------*/
+
+
+#timeR{
+        position: absolute;
+    margin-top: 2%;
+    margin-left: 81%;
+     font-family: 'Mukta', sans-serif;
+    
+    color:white;
+    width:150px;
+    height: 50px;
+}
+
+
+
+/*----------------------------------_CV_---------------------------------------*/
+
+.CV{
+    display:none;
+    flex-direction: column;
+    overflow: scroll;
+    background-color:white;
+    position:absolute;
+    top:30px;
+    left:200px;
+    width:73%;
+    height:93%;
+    color:#424242;
+
+}
+.oboloczka{
+
+   width:100%;
+   height:40px;
+    background:black;
+}
+#close{
+    margin:7px;
+    width:25px;
+    height:25px;
+    margin-left: 95%;
+}
+#ava{
+
+    margin-top: 40px;
+    margin-left: 57%;
+    width:35%;
+    height:75%;
+    margin-bottom: 40px;
+}
+#KnowMe{
+ margin-top: 70px;
+ margin-left: 50px;
+ font-weight: bold;
+ font-size: 40px;
+ font-family: 'Mukta', sans-serif;
+ color:black;
+    
+}
+#CVline{
+    width:720px;
+    height:1px;
+    background:#3799CC;
+    border:1px solid #3799CC;
+    margin-top: -71px;
+    margin-right: 85px;
+}
+#KnowMetext{
+    margin-top: 70px;
+    margin-left: 50px;
+    width:90%;
+}
+#CVinform{
+    font-size: 17px;
+    margin-left: 25px;
+    margin-top:-510px;
+}
+td{
+    padding-left: 25px;
+}
+tr{
+    text-align: left;
+}
+#CVcyt{
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 45%;
+    padding: 10px;
+    background-color:#FBFBFB;
+    border-left:7px solid #FBFBFB;
+    border-left:7px solid #3799CC;
+}
+#FavQuote{
+    font-size:23px;
+    margin-left: 3%;
+}
+#Cytate{
+    margin: 20px;
+    margin-left: 130px;
+    font-size: 20px;
+}
+span{
+    font-size:30px;
+    font-weight: bold;
+}
+#AutorCyt{
+    margin-left: 300px;
+    color:darkgray;
+    font-size:20px;
+}
+
+
+
+
+
+
+
+/* -------------------------------_SKILLS_---------------------------------------*/
+.skills{
+        display:none;
+    overflow: scroll;
+    background-color:white;
+    position:absolute;
+    top:30px;
+    left:200px;
+    width:73%;
+    height:93%;
+    color:#424242;
+   
+    
+}
+#close2{
+    margin:7px;
+    width:25px;
+    height:25px;
+    margin-left: 95%;
+}
+
+#skillsTitle{
+    margin-top: 70px;
+     margin-left: 50px;
+ font-weight: bold;
+ font-size: 40px;
+ font-family: 'Mukta', sans-serif;
+ color:black;
+}
+
+.skillsLine{
+        width:820px;
+    height:1px;
+    background:#3799CC;
+    border:1px solid #3799CC;
+    margin-top: -75px;
+    margin-right: 60px;
+}
+.skillsTitles{
+    color:black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:bold;
+    font-size: 25px;
+    margin-top:80px;
+    margin-left:50px;
+    width:945px;
+    padding-bottom:5px;
+    border-bottom: 0.1px solid lightgrey;
+    
+}
+.textSkills{
+    width:500px;
+    margin-left: 50px;
+    font-family:'Mukta', sans-serif;
+}
+#itKnow{
+    margin-left:55%;
+    margin-top:-15%;
+}
+.lineItskil{
+
+    background-color:#3799CC;
+    height: 11px;
+    margin-top:-15px;
+}
+.textSkills2{
+    margin-left: 500px;
+}
+.skillsTitles2{
+    text-align:right;
+}
+#languageKnow{
+    margin-left:5%;
+    margin-top:-15%;
+    padding-bottom: 50px;
+    
+    
+}
+
+
+/*----------------------------------_HOBBY_-------------------------------------*/
+#myHobby{
+    display: none;
+        overflow: scroll;
+    background-color:white;
+    position:absolute;
+    top:30px;
+    left:200px;
+    width:73%;
+    height:93%;
+    color:#424242;
+   
+    
+}
+#titleHobby{
+        margin-top: 70px;
+     margin-left: 50px;
+ font-weight: bold;
+ font-size: 40px;
+ font-family: 'Mukta', sans-serif;
+ color:black;
+}
+.skillsHobby{
+    color:black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+    margin-top:80px;
+    margin-left:50px;
+    width:945px;
+    padding-bottom:5px;
+    border-bottom: 0.1px solid lightgrey;
+    
+}
+#hobbyLine{
+    width:820px;
+    height:1px;
+    background:#3799CC;
+    border:1px solid #3799CC;
+    margin-top: -70px;
+    margin-right: 40px;
+}
+#close3{
+        margin:7px;
+    width:25px;
+    height:25px;
+    padding-left:84%; 
+}
+#myHobby img{
+    display:inline;
+    margin-left:14px;
+    width:23%;
+}
+.textHobby{
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family:'Mukta', sans-serif;
+}
+video{
+
+      display:inline;
+    margin-left:14px;
+    width:31%;  
+}
+
+/*-----------------------------------_EDUCATION_---------------------------------*/
+#Education{
+    display: none;
+    overflow: scroll;
+    background-color:white;
+    position:absolute;
+    top:30px;
+    left:200px;
+    width:73%;
+    height:93%;
+    color:#424242;
+}
+#close4{
+    margin:7px;
+    width:25px;
+    height:25px;
+    margin-left:95%; 
+}
+#educationLine{
+    width:800px;
+    height:1px;
+    background:#3799CC;
+    border:1px solid #3799CC;
+    margin-top: -70px;
+    margin-right: 40px;
+}
+#educationTitle{
+ margin-top: 70px;
+ margin-left: 50px;
+ font-weight: bold;
+ font-size: 40px;
+ font-family: 'Mukta', sans-serif;
+ color:black;
+}
+.titleEducation{
+    color:black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+    margin-top:80px;
+    margin-left:50px;
+    width:945px;
+    padding-bottom:5px;
+    border-bottom: 0.1px solid lightgrey;  
+}
+.textEducation{
+    
+    width:600px;
+    margin-top: 90px;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family:'Mukta', sans-serif;
+}
+#zut{
+    margin-top:-300px;
+}
+#zut img{
+
+    margin-left:70%;
+    width:200px;
+}
+#zut :last-child{
+    margin-top:20px;
+    margin-left: 74%;
+    width:100px;
+}
+.textEducation1{
+    margin-top: 150px;
+    margin-left: 35%;
+}
+.dyploms{
+    margin-top:-300px;
+}
+.dyploms img{
+    margin-left:5%;
+    width: 25%;
+} 
+.dyploms img:last-child{
+    margin-top: 10px;
+    margin-left:5%;
+    width: 25%;
+}
+.dyploms2 img{
+    margin-left:65%;
+}
+.dyploms2 img:last-child{
+    margin-left:65%;
+    margin-bottom: 50px;
+}
+
+/*-----------------------------------_COMMENTS_---------------------------------*/
+
+#email{
+
+    overflow: scroll;
+    background-color:white;
+    position:absolute;
+    top:30px;
+    left:200px;
+    width:73%;
+    height:93%;
+    color:#424242;
+}
+#close5{
+    margin:7px;
+    width:25px;
+    height:25px;
+    margin-left:95%; 
+}
+#commentsTitle{ 
+ margin-top: 70px;
+ margin-left: 50px;
+ font-weight: bold;
+ font-size: 40px;
+ font-family: 'Mukta', sans-serif;
+ color:black;
+}
+.LinesGrey{
+    position:absolute;
+    width:10%;
+    margin-left:35px;
+    margin-top:40px;
+    
+}
+.LinesGrey2{
+    margin-top:-100px;
+    margin-left: 85%;
+}
+#commentsLine{
+      width:300px;
+    height:1px;
+    background:#3799CC;
+    border:1px solid #3799CC;
+    margin-top: -75px;
+    margin-right: 55px;  
+}
+#comments{
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top:55px;
+    width:89%;
+    height:19%;
+    resize: none;
+}
+#buttonComments{
+    margin-left: 80%;
+    width:100px;
+    height:100px;
+
+}
+
+marquee{
+  color:white;
+ position: absolute;
+    z-index: 9999;
+    bottom: 20px;
+}
+marquee a{
+    color: white;
+    text-decoration: none;
+    
+}
