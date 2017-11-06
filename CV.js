@@ -30,14 +30,14 @@ $(document).ready(function(){
     function skillsClickOp(){
 
         $('.skills').show(50);
-          $('#htMl5').animate({ width: '350' }, 1500);
-        $('#cSs3').animate({width:'250'},1500);
-        $('#jquEry').animate({width:'200'},1500);
-        $('#cpLus').animate({width:'150'},1500);
-        $('#english').animate({width:'250'},1500);
-        $('#russian').animate({width:'400'},1500);
-        $('#ukrainian').animate({width:'400'},1500);
-        $('#polish').animate({width:'350'},1500);
+          $('#htMl5').animate({ width: '78%' }, 1500);
+        $('#cSs3').animate({width:'78%'},1500);
+        $('#jquEry').animate({width:'56%'},1500);
+        $('#cpLus').animate({width:'27%'},1500);
+        $('#english').animate({width:'22%'},1500);
+        $('#russian').animate({width:'41%'},1500);
+        $('#ukrainian').animate({width:'41%'},1500);
+        $('#polish').animate({width:'34%'},1500);
         $('.CV').hide(100);
         $('#Education').hide(100);
         $('#myHobby').hide(100);

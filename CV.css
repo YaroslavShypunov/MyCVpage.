@@ -1,3 +1,7 @@
+
+
+
+
 body{
     background-color: rgb(18,18,18);
 }
@@ -162,13 +166,13 @@ border-radius: 150px;
     height: 50px;
 }
 #menu2Icons2{
-    margin-top: -5px;
+    margin-top: -15px;
     padding:15px;
-    width:32px;
-    height:32px;
+    width:29px;
+    height:29px;
 }
 #menu2Icons3{
-    margin-top: -25px;
+    margin-top: -15px;
     padding:10px;
     width:40px;
     height:40px;
@@ -241,6 +245,7 @@ border-radius: 150px;
     width:73%;
     height:93%;
     color:#424242;
+    padding-bottom: 20px;
 
 }
 .oboloczka{
@@ -394,6 +399,7 @@ span{
     background-color:#3799CC;
     height: 11px;
     margin-top:-15px;
+    width: 0%;
 }
 .textSkills2{
     margin-left: 500px;
@@ -453,10 +459,12 @@ span{
     margin-right: 40px;
 }
 #close3{
+    position: relative;
         margin:7px;
+    margin-right: 20px;
     width:25px;
     height:25px;
-    padding-left:84%; 
+    left: 83%;
 }
 #myHobby img{
     display:inline;
@@ -636,4 +644,223 @@ marquee a{
     color: white;
     text-decoration: none;
     
+}
+    
+
+
+
+
+
+@media screen and (max-width: 1400px){
+        .textEducation {
+    width: 55%;
+}
+    .titleEducation {
+    width: 90%;
+}
+    #ground{
+        width: 88%;
+        left: 12%;
+    }
+    #CVline{
+        width:62%;
+    }
+    #CVinform{
+        margin-left: 3%;
+}
+    #ava{
+
+    margin-top: 40px;
+    margin-left: 57%;
+    width:35%;
+    height:70%;
+    margin-bottom: 55px;
+}
+    .skillsLine {
+    width: 75%;
+    }
+    .textSkills {
+    font-size: 14px;
+        
+}
+#itKnow {
+    margin-left: 58%;
+    margin-top: -17%;
+}
+    #languageKnow {
+        margin-top: -17%;
+}
+    #educationLine {
+    width: 70%;
+    }
+    #hobbyLine {
+        width: 75%;
+    }
+    .skillsTitles {
+
+        width: 90%;
+    }
+      .textSkills2{
+    width: 40%;
+    margin-top: 78px;
+    margin-left: 56%;
+    }
+    .textSkills3{
+    width: 40%;
+    margin-top: 72px;
+    }
+    .skillsHobby {
+    width: 90%;
+}
+    #myHobby img {
+    display: inline;
+    margin-left: 98px;
+    width: 33%;
+}
+}
+
+
+
+
+
+
+@media screen and (max-width: 1200px){
+    #itKnow {
+    margin-left: 54%;
+    margin-top: -174px;
+}
+    #languageKnow {
+        margin-top: -180px;
+}
+    .textSkills2 {
+    width: 40%;
+    margin-top: 60px;
+    margin-left: 54%;
+}
+    #educationLine {
+    width: 64%;
+}
+
+    #zut {
+    margin-top: -310px;
+}
+}
+
+
+
+
+@media screen and (max-width:1135px){
+    #KnowMetext {
+    margin-top: 70px;
+    margin-left: 3%;
+    width: 97%;
+}
+    #kalendar{
+        left: 89%;
+    }
+    .divNetworks{
+        left:91%;
+    }
+        #CVinform{
+        margin-left: 0%;
+}
+    #CVinform {
+    font-size: 16px;
+    margin-left: 25px;
+    margin-top: -510px;
+}
+        #ava {
+    margin-top: 40px;
+    margin-left: 60%;
+    width: 36%;
+    height: 65%;
+    margin-bottom: 89px;
+}
+        #CVline{
+        width:60%;
+    }
+    #itKnow {
+    margin-left: 54%;
+    margin-top: -191px;
+}
+}
+
+
+
+
+@media screen and (max-width: 980px){
+        #ground{
+        width: 87%;
+        left: 14%;
+    }
+        #kalendar{
+        left: 87%;
+    }
+    .divNetworks{
+        left:89%;
+    }
+    #languageKnow {
+    margin-top: -193px;
+    margin-left: 45px;
+}
+    .textSkills3 {
+    width: 40%;
+    margin-top: 24px;
+}
+    .textSkills2 {
+    width: 40%;
+    margin-top: 24px;
+    margin-left: 54%;
+}
+    .skillsLine {
+    width: 65%;
+}
+    #CVline {
+    width: 54%;
+}
+    #KnowMetext {
+    margin-top: 70px;
+    margin-left: 7%;
+    width: 86%;
+}
+    #CVinform {
+    font-size: 14px;
+    margin-left: 25px;
+    margin-top: -380px;
+}
+    #ava {
+    margin-top: 6px;
+    margin-left: 58%;
+    width: 32%;
+    height: 56%;
+    margin-bottom: 89px;
+}
+#CVcyt {
+    margin-top: 3%;
+    width: 40%;
+    padding: 6px;
+}
+    #Cytate {
+    margin: 10px;
+    margin-left: 80px;
+    font-size: 18px;
+}
+    #Cytate span{
+        font-size: 21px;
+    }
+    #AutorCyt {
+    margin-left: 199px;
+    font-size: 17px;
+}
+    #FavQuote {
+    font-size: 19px;
+    margin-left: 3%;
+}
+    #zut {
+    margin-top: -343px;
+}
+    .textEducation1 {
+    margin-top: 83px;
+
+}
 }
