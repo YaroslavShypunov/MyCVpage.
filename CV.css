@@ -15,6 +15,9 @@ body{
 
     
 }
+#mobile{
+    display: none;
+}
 /* -------------------MENU-----------------------*/
 header{
     display: flex;
@@ -41,17 +44,6 @@ header{
 
 #firstMenu:hover{
     background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_couch.svg) no-repeat;
-}
-
-#secondMenu{
-    
-    width:90px;
-    height: 90px;
-    display:block;
-    background:url(Tilda_Icons_10_Coworking/Tilda_Icons_10cw_bubbles.svg) no-repeat;
-}
-#secondMenu:hover{
-    background:url(Tilda_Icons_10_Coworking/blue/Tilda_Icons_10cw_bubbles.svg) no-repeat;
 }
 #thirdMenu{
     width:90px;
@@ -863,4 +855,170 @@ marquee a{
     margin-top: 83px;
 
 }
+}
+
+@media screen and (max-width: 575px){
+    body{
+        font-family: 'Libre Baskerville', serif;
+    }
+    header{
+        display: none;
+        margin-top: -10px;
+        height: 736px;
+        margin-left:-10px;
+        width:90px;
+        background:white;
+    }
+    #ground{
+     display: none;   
+    }
+    #kalendar{
+        display:none;
+    }
+    #groundDIV{
+        display:none;
+    }
+
+    .divNetworks{
+        display: none;
+    }
+    
+    #mobile{
+        overflow:  hidden;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    #mobileMyName{
+        margin:auto;
+        margin-top:55%;
+        font-family: 'Libre Baskerville', serif;
+        color: white;
+        font-size: 25px;
+    }
+    #mobileWebDeveloper{
+        margin-top: 10px;
+        margin: auto;
+        color: white;
+        font-family: 'Libre Baskerville', serif;
+    }
+    #hrMobile{
+        width: 30%;
+        margin-left: 100%;
+        border:1px solid #3799CC;
+        background:#3799CC;
+    }
+    #mobileWebDeveloper + p{
+        font-size: 20px;
+        margin-left: 5%;
+        margin-top: 140%;
+        color: white;
+        width:90%;
+    }
+    .mobilePar{
+                font-size: 20px;
+        margin-left: 5%;
+        color: white;
+        margin-top: 10%;
+        width:90%;
+    }
+    #mobileWebDeveloper + p + p + div{
+   margin: 15px;
+    margin-left:5%
+    }
+    .pagesMobile{
+        color: white;
+        text-decoration: none;
+        border: 2px solid white;
+        padding: 10px;
+        margin: 5px;
+        margin-left:0px;
+    }
+    
+    #whiteBackgroundMobile{
+        margin-top:20px;
+        background:white;
+        padding:10px;
+        position: relative;
+    }
+    .mobileSkillsTitles{
+        font-size:18px;
+    }
+    .mobileSkillsTitles + p{
+        opacity: 0;
+        font-size: 26px;
+        font-family: 'Londrina Sketch', cursive;
+        position: absolute;
+        top: 10px;
+        color:#3799CC;
+        font-weight: bold;
+        line-height: 1;
+        
+    }
+    .mobileTextSkills{
+        
+        margin-left: 5%;
+        width:90%;
+        font-size: 20px;
+    }
+    #mobileItKnow{
+        margin-left: 5%;
+        margin-top:10px;
+        font-size: 20px;
+    }
+    .spanMobile{
+        color:#3799CC;
+    }
+    #mobilelanguageKnow{
+        margin-left: 5%;
+        margin-top:10px;
+        font-size: 20px;
+        color:white;
+    }
+    #footerMobile{
+        margin-left: 5%;
+
+        color:white;
+        background-image: url(blackwhiteAve.png);
+        background-repeat: no-repeat;
+            background-position: -200px -400px;
+        background-size: 700px;
+        
+    }
+    #footerMobile h3{
+        margin-top: 50px;
+        font-size: 35px;
+        margin-bottom: 100px;
+    }
+    #footerMobile a{
+        
+        color:white;
+        font-size:20px;
+        text-decoration: none;
+    }
+    #footerMobile a:hover{
+        color:#3799CC;
+    }  
+    #footerMobile a:hover span{
+        color:#3799CC;
+    }
+    a > span{
+        color:#808080;
+        font-size: 15px;
+        font-weight: normal;
+        
+    }
+    #footerMobile > p {
+        padding-left: 5px;
+        border-left: 2px solid #3799CC;
+        color:#808080;
+        font-size:15px;
+        width: 80%;
+    }
+    #hrMobile2{
+        margin-top:20px;
+        width: 40%;
+        border:1px solid #3799CC;
+        background:#3799CC;
+    }
 }

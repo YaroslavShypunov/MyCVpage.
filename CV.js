@@ -1,4 +1,33 @@
 $(document).ready(function(){
+        setInterval(function(){
+    $('#hrMobile').animate({marginLeft:"-50%"},2000);
+    $('#hrMobile').animate({marginLeft:"150%"},2000);
+
+    },4000);
+    setInterval(function(){
+    $('.mobileSkillsTitles + p').animate({opacity:'1'},50);
+    setTimeout(function(){$('.mobileSkillsTitles + p').animate({opacity:'0'},50);},200);    
+    
+    },5000);
+    setInterval(function(){
+        $('#hrMobile2').animate({opacity:'0'},100);
+        setTimeout(function(){$('#hrMobile2').animate({opacity:'1'},100);},100);
+    },2000);
+    
+    $('#whiteBackgroundMobile').mouseover(function(){
+          $('#mhtMl5').animate({ width: '78%' }, 1500);
+        $('#mcSs3').animate({width:'78%'},1500);
+        $('#mjquEry').animate({width:'56%'},1500);
+        $('#mcpLus').animate({width:'27%'},1500);
+    });
+    
+    $('#whiteBackgroundMobile + div').mouseover(function(){
+                $('#menglish').animate({width:'42%'},1500);
+        $('#mrussian').animate({width:'80%'},1500);
+        $('#mukrainian').animate({width:'80%'},1500);
+        $('#mpolish').animate({width:'65%'},1500);
+    });
+    
     var date = new Date();
     var year = date.getFullYear();
     var month = date.getMonth();
@@ -107,6 +136,8 @@ $(document).ready(function(){
     
     
     
+    
+
     
 
 });
