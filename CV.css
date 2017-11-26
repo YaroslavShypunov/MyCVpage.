@@ -207,7 +207,6 @@ border-radius: 150px;
 }
 
 
-
 /*------------------------------_TIMER_----------------------------------------*/
 
 
@@ -241,7 +240,7 @@ border-radius: 150px;
 
 }
 .oboloczka{
-
+   overflow-x: hidden;
    width:100%;
    height:40px;
     background:black;
@@ -709,6 +708,10 @@ marquee a{
     margin-left: 98px;
     width: 33%;
 }
+	#close3{
+		position: absolute;
+		left: 70%;
+	}
 }
 
 
@@ -717,6 +720,10 @@ marquee a{
 
 
 @media screen and (max-width: 1200px){
+		#close3{
+		position: absolute;
+		left: 68%;
+	}
     #itKnow {
     margin-left: 54%;
     margin-top: -174px;
@@ -742,6 +749,10 @@ marquee a{
 
 
 @media screen and (max-width:1135px){
+		#close3{
+		position: absolute;
+		left: 65%;
+	}
     #KnowMetext {
     margin-top: 70px;
     margin-left: 3%;
@@ -781,6 +792,10 @@ marquee a{
 
 
 @media screen and (max-width: 980px){
+			#close3{
+		position: absolute;
+		left: 62%;
+	}
         #ground{
         width: 87%;
         left: 14%;
@@ -858,9 +873,13 @@ marquee a{
 }
 
 @media screen and (max-width: 575px){
+	marquee{
+		display:none;
+	}
     body{
         font-family: 'Libre Baskerville', serif;
     }
+
     header{
         display: none;
         margin-top: -10px;
@@ -919,7 +938,7 @@ marquee a{
                 font-size: 20px;
         margin-left: 5%;
         color: white;
-        margin-top: 10%;
+        margin-top: 9%;
         width:90%;
     }
     #mobileWebDeveloper + p + p + div{
@@ -949,7 +968,7 @@ marquee a{
         font-size: 26px;
         font-family: 'Londrina Sketch', cursive;
         position: absolute;
-        top: 10px;
+        top: 0px;
         color:#3799CC;
         font-weight: bold;
         line-height: 1;

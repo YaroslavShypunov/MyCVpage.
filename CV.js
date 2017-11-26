@@ -134,9 +134,15 @@ $(document).ready(function(){
         $('.skills').hide(100);
     }
     
+$(window).resize(function(){
+ if($(window).width() <= 575){
+	     $('.CV').hide(50);
+        $('.skills').hide(50);
+        $('#Education').hide(50);
+        $('#myHobby').hide(50);
+ }   
     
-    
-    
+    })
 
     
 
