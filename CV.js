@@ -35,6 +35,9 @@ $(document).ready(function(){
 
     var monthWord = ['JAN','FEB','MAR','APR','MAY','JUN','JUL','AUG','SEP','OCT','NOV','DEC'];
     var i = month;
+    if(day < 10){
+        day = "0" + day;
+    }
     $('#monthDate').text(monthWord[i]);
     $('#dayDate').text(day);
     $('#yearDate').text(year);
@@ -140,10 +143,33 @@ $(window).resize(function(){
         $('.skills').hide(50);
         $('#Education').hide(50);
         $('#myHobby').hide(50);
+     $('#gallery').hide(50);
  }   
     
     })
 
     
-
+$("#gallery > div > div").mouseover(function(){
+	$('#gallery > div > div').css('display','none');
+    $(this).css('display','block');
+});
+$("#gallery > div > div").mouseout(function(){
+	$('#gallery > div > div').css('display','block');
+});
+$('#close5').on('click',function(){
+$('#gallery').hide(100);
+    
+});
+$('#allDiploms').on('click',function(){
+    $('#gallery').show(100);
+    $('#gallery > div > div').eq(0).show(100);
+     $('#gallery > div > div').eq(1).show(300);
+     $('#gallery > div > div').eq(2).show(500);
+     $('#gallery > div > div').eq(3).show(600);
+     $('#gallery > div > div').eq(4).show(700);
+     $('#gallery > div > div').eq(5).show(800);
+     $('#gallery > div > div').eq(6).show(900);
+     $('#gallery > div > div').eq(7).show(1000);
+    
+});
 });
